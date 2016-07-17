@@ -16,10 +16,12 @@
  *
  ******************************************************************************/
 
+
 import java.awt.Font;
 
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdDraw;
+
 
 public class PercolationVisualizer {
 
@@ -72,6 +74,7 @@ public class PercolationVisualizer {
         Percolation perc = new Percolation(N);
         draw(perc, N);
         StdDraw.show(DELAY);
+
         while (!in.isEmpty()) {
             int i = in.readInt();
             int j = in.readInt();

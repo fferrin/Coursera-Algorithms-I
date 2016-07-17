@@ -11,8 +11,10 @@
  *
  ******************************************************************************/
 
+
 import edu.princeton.cs.algs4.StdDraw;
 import edu.princeton.cs.algs4.StdOut;
+
 
 public class InteractivePercolationVisualizer {
 
@@ -30,10 +32,8 @@ public class InteractivePercolationVisualizer {
         StdDraw.show(0);
 
         while (true) {
-
             // detected mouse click
             if (StdDraw.mousePressed()) {
-
                 // screen coordinates
                 double x = StdDraw.mouseX();
                 double y = StdDraw.mouseY();

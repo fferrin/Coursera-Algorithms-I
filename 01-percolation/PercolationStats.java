@@ -3,14 +3,16 @@
  *  Execution:    java PercolationStats N T
  *  Dependencies: StdStats.java StdRandom.java Percolation.java
  *
- *  This ṕrogram takes the size of the grid N and the times you want
+ *  This program takes the size of the grid N and the times you want
  *  to repeat the experiment T and calculate the mean, deviation and
  *  the confidence interval of the threshold value.
  *
  ******************************************************************************/
 
+
 import edu.princeton.cs.algs4.StdStats;
 import edu.princeton.cs.algs4.StdRandom;
+
 
 public class PercolationStats {
     private double[]      res;
